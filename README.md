@@ -30,9 +30,10 @@ For more details on the dataset, please refer to the [official MIND dataset page
     ```
 
 2. **Install the necessary dependencies:**
-    - If you are using Google Colab, you need to install PyTorch Lightning. Add the following code block at the beginning of your notebook:
+    - If you are using Google Colab, you need to install PyTorch Lightning and download the dataset from drive. Add the following code block at the beginning of your notebook:
     ```python
     !pip install pytorch-lightning
+    !python download_data.py
     ```
 
 
